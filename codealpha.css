@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(121, 65, 65);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.player {
+    background: #fff;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(153, 130, 130, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color: #684d4d;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    color: #ff5722;
+}
+
+button i {
+    pointer-events: none;
+}
